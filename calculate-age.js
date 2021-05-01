@@ -15,7 +15,7 @@ function showTime(days, hours, mins, secs) {
   sec.textContent = secs;
 }
 
-const countDownDate = new Date(`May 1, 2021 22:8:05`).getTime();
+const countDownDate = new Date(`May 1, 2021 22:13:05`).getTime();
 const countDown = setInterval(function () {
   const currentTime = new Date().getTime();
   const timeLeft = countDownDate - currentTime;
